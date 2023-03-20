@@ -1,7 +1,7 @@
     import { Piso } from "./Piso";
     import { PlantaBaja } from "./PlantaBaja";
-    export
-    class Ascensor{
+    
+    export class Ascensor{
 
         pisoActual: Piso;
         historial: string[];
