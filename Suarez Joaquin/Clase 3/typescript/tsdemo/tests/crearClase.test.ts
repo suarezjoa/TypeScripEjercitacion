@@ -6,37 +6,37 @@ import { Tijera } from "../src/Tijera";
   test('Tijera vs pierda', () => {
     let tijeraob = new Tijera();
     let piedraob = new Piedra();
-    expect(("pierde")).toBe(piedraob.gana(tijeraob));
+    expect(("gana")).toBe(piedraob.gana(tijeraob));
     }
   );
   test('Piedra Vs tijera', () => {
     let tijeraob = new Tijera();
     let piedraob = new Piedra();
-    expect(("ganar")).toBe(tijeraob.gana(piedraob));
+    expect(("pierde")).toBe(tijeraob.gana(piedraob));
     }
   );
   test('Piedra Vs Papel', () => {
     let papelob = new Papel();
     let piedraob = new Piedra();
-    expect(("pierde")).toBe(papelob.gana(piedraob));
+    expect(("gana")).toBe(papelob.gana(piedraob));
     }
   );
   test('Papel Vs Piedra', () => {
     let papelob = new Papel();
     let piedraob = new Piedra();
-    expect(("ganar")).toBe(piedraob.gana(papelob));
+    expect(("pierde")).toBe(piedraob.gana(papelob));
     }
   );
   test('Papel Vs Tijera', () => {
     let papelob = new Papel();
     let tijeraob = new Tijera();
-    expect(("pierde")).toBe(tijeraob.gana(papelob));
+    expect(("gana")).toBe(tijeraob.gana(papelob));
     }
   );
   test('Tijera Vs Papel', () => {
     let papelob = new Papel();
     let tijeraob = new Tijera();
-    expect(("ganar")).toBe(papelob.gana(tijeraob));
+    expect(("pierde")).toBe(papelob.gana(tijeraob));
     }
   );
   test('Tijera Vs Tijera', () => {

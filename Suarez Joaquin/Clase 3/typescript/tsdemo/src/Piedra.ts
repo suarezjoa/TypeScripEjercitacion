@@ -12,10 +12,10 @@ export class Piedra extends Elemento {
     }
     
     ganaPapel(elemento: Papel): string {
-      return "pierde";
+      return "gana";
     }
     
     ganaTijera(elemento: Tijera): string {
-      return "ganar";
+      return "pierde";
     }
   }

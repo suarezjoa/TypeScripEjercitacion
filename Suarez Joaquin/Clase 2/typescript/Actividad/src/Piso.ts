@@ -1,19 +1,20 @@
-export
-
-abstract class Piso{
+export abstract class Piso {
 
     nombre: string;
-
-    constructor(nombre: string){
-        this.nombre = nombre;
+  
+    constructor(nombre: string) {
+      this.nombre = nombre;
     }
-    
-    getNombre(): string{
-        return this.nombre;
+  
+    abstract entrarAlPiso(): void;
+  
+    abstract salirDelPiso(): void;
+  
+    getNombre(): string {
+      return this.nombre;
     }
-    setNombre(nombre: string){
-        this.nombre = nombre;
+  
+    setNombre(nombre: string): void {
+      this.nombre = nombre;
     }
-
-
 }

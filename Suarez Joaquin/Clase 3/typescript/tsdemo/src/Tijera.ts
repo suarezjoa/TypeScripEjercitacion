@@ -9,11 +9,11 @@ export class Tijera extends Elemento {
     }
     
     ganaPiedra(elemento: Piedra): string {
-      return "pierde";
+      return "gana";
     }
     
     ganaPapel(elemento: Papel): string {
-      return "ganar";
+      return "pierde";
     }
     
     ganaTijera(elemento: Tijera): string {
