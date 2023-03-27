@@ -9,8 +9,8 @@ export class Ascensor{
 
 
     constructor(){
-        this.pisoActual = new PlantaBaja("Plantabaja");
-        this.historial = [];
+        this.pisoActual = new PlantaBaja("PlantaBaja");
+        this.historial = ["PlantaBaja"];
         this.arrayPiso  = [];
     }
     
